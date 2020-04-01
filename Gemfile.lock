@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rails_ping (0.1.0)
+    rails_ping (0.2.0)
       rails (>= 5, < 7)
 
 GEM
