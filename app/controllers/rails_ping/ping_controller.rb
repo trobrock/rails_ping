@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module Ping
+module RailsPing
   class PingController < ApplicationController
     def show
       respond_to do |format|
@@ -40,7 +40,7 @@ module Ping
     end
 
     def all_checks
-      @all_checks ||= Ping.checks.map { |name, check| [name, check.call] }
+      @all_checks ||= RailsPing.checks.map { |name, check| [name, check.call] }
     end
   end
 end

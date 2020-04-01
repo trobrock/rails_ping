@@ -1,4 +1,4 @@
-# Ping
+# RailsPing
 This is a simple Rails engine that provides a health check endpoint you can use for load balancer
 health check, external health checks, or anything else.
 
@@ -6,7 +6,7 @@ health check, external health checks, or anything else.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'ping'
+gem 'rails_ping'
 ```
 
 And then execute:
@@ -16,7 +16,7 @@ $ bundle
 
 Or install it yourself as:
 ```bash
-$ gem install ping
+$ gem install rails_ping
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ ensure your database connection is healthy. You can do that by creating an initi
 similar to:
 
 ```ruby
-Ping.configure do |config|
+RailsPing.configure do |config|
   config.add_check :database, -> { User.first }
 end
 ```

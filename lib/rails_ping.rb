@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-require 'ping/engine'
+require 'rails_ping/engine'
 
-module Ping
+module RailsPing
   mattr_reader :checks
   @@checks = {} # rubocop:disable Style/ClassVars
 
