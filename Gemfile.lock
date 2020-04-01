@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    ping (0.1.0)
+    rails-ping (0.1.0)
       rails (>= 5, < 7)
 
 GEM
@@ -135,7 +135,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  ping!
+  rails-ping!
 
 BUNDLED WITH
    2.1.4
