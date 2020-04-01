@@ -7,11 +7,11 @@ require 'ping/version'
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |spec|
-  spec.name        = 'ping'
+  spec.name        = 'rails-ping'
   spec.version     = Ping::VERSION
   spec.authors     = ['Trae Robrock']
   spec.email       = ['trobrock@gmail.com']
-  spec.homepage    = 'https://github.com/trobrock/ping'
+  spec.homepage    = 'https://github.com/trobrock/rails-ping'
   spec.summary     = 'A simple rails engine to provide a health check endpoint.'
   spec.description = 'A simple rails engine to provide a health check endpoint.'
   spec.license     = 'MIT'
