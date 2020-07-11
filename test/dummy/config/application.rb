@@ -16,7 +16,7 @@ require 'action_view/railtie'
 require 'rails/test_unit/railtie'
 
 Bundler.require(*Rails.groups)
-require 'rails_ping'
+require 'ring'
 
 module Dummy
   class Application < Rails::Application

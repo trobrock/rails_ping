@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-module RailsPing
+module Ring
   class Engine < ::Rails::Engine
-    isolate_namespace RailsPing
+    isolate_namespace Ring
   end
 end
